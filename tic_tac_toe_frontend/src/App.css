@@ -1,12 +1,15 @@
 /* CSS Variables for Theme Management */
 :root {
   /* Light theme colors */
+  --primary: #1976d2;
+  --secondary: #e3e3e3;
+  --accent: #ff9800;
   --bg-primary: #ffffff;
   --bg-secondary: #f8f9fa;
   --text-primary: #282c34;
   --text-secondary: #61dafb;
   --border-color: #e9ecef;
-  --button-bg: #007bff;
+  --button-bg: #1976d2;
   --button-text: #ffffff;
 }
 
@@ -100,5 +103,111 @@
     right: 10px;
     padding: 8px 16px;
     font-size: 12px;
+  }
+}
+
+/* --- Tic Tac Toe custom styles --- */
+.ttt-title {
+  font-size: 2.9rem;
+  margin-bottom: 6px;
+  letter-spacing: 1.5px;
+}
+
+.ttt-scoreboard {
+  margin-bottom: 10px;
+}
+
+.ttt-score-pill {
+  user-select: none;
+  /* color and background set inline for accent/primary */
+}
+
+.ttt-grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.ttt-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 68px);
+  grid-template-rows: repeat(3, 68px);
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background: var(--bg-secondary);
+  padding: 18px 15px 14px 15px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 34px 0 rgba(17,24,39,.06);
+  min-width: 215px;
+  min-height: 215px;
+}
+
+.ttt-cell {
+  width: 68px;
+  height: 68px;
+  background: var(--bg-primary);
+  color: var(--primary, #1976d2);
+  font-size: 2.4rem;
+  font-weight: 700;
+  border-radius: 10px;
+  border: 1.5px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s, border 0.15s, color 0.15s, box-shadow 0.11s;
+  outline: none;
+}
+.ttt-cell:disabled {
+  background: var(--bg-secondary);
+  opacity: 0.81;
+  cursor: default;
+}
+.ttt-cell:active:not(:disabled) {
+  background: var(--secondary, #e3e3e3);
+}
+
+.ttt-grid .ttt-cell:focus-visible {
+  box-shadow: 0 0 0 2.5px var(--accent, #ff9800), 0px 0.5px 1.5px 0 rgba(17,24,39,.06);
+  z-index: 1;
+}
+
+.ttt-status {
+  letter-spacing: 1px;
+}
+
+.ttt-restart-btn {
+  outline: none;
+  box-shadow: 0 0.5px 3px 0 rgba(0,0,0,0.06);
+}
+.ttt-restart-btn:hover {
+  background: #125aad;
+}
+
+@media (max-width: 600px) {
+  .ttt-grid {
+    grid-template-columns: repeat(3, 50px);
+    grid-template-rows: repeat(3, 50px);
+    min-width: 155px;
+    min-height: 155px;
+    padding: 12px 7px 7px 7px;
+  }
+  .ttt-cell {
+    width: 50px;
+    height: 50px;
+    font-size: 1.4rem;
+  }
+  .ttt-title {
+    font-size: 2rem;
+  }
+
+  .ttt-score-pill {
+    font-size: 14px;
+    min-width: 32px;
+    padding: 6px 10px;
   }
 }

@@ -1,0 +1,150 @@
+{
+    "top_n_overall": [
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/package.json",
+            "count": 87
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/src/App.css",
+            "count": 46
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/src/App.js",
+            "count": 40
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/eslint.config.mjs",
+            "count": 30
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/post_process_status.lock",
+            "count": 30
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/src/index.css",
+            "count": 28
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/src/index.js",
+            "count": 28
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/README.md",
+            "count": 27
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/src/App.test.js",
+            "count": 27
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/src/setupTests.js",
+            "count": 27
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/public/robots.txt",
+            "count": 27
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/public/manifest.json",
+            "count": 27
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/public/logo512.png",
+            "count": 27
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/public/index.html",
+            "count": 27
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/public/logo192.png",
+            "count": 27
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/public/favicon.ico",
+            "count": 27
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/post_process.log",
+            "count": 26
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/src/logo.svg",
+            "count": 26
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/package-lock.json",
+            "count": 26
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/.status",
+            "count": 26
+        }
+    ],
+    "top_n_last_10_min_accessed": [
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/package.json",
+            "count": 61
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/src/App.css",
+            "count": 16
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/src/App.js",
+            "count": 12
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/eslint.config.mjs",
+            "count": 4
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/post_process_status.lock",
+            "count": 4
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/src/index.css",
+            "count": 2
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/src/index.js",
+            "count": 2
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/README.md",
+            "count": 1
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/src/App.test.js",
+            "count": 1
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/src/setupTests.js",
+            "count": 1
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/public/favicon.ico",
+            "count": 1
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/public/logo192.png",
+            "count": 1
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/public/logo512.png",
+            "count": 1
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/public/manifest.json",
+            "count": 1
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/public/robots.txt",
+            "count": 1
+        },
+        {
+            "file": "/home/kavia/workspace/code-generation/web-tic-tac-toe-ebc31c6a/tic_tac_toe_frontend/public/index.html",
+            "count": 1
+        }
+    ]
+}
